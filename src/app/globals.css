@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --mu-primary: #8c4f6b;
+  --mu-secondary: #e8c547;
+  --mu-accent: #c94a67;
+  --mu-bg: #fef8f6;
+  --mu-dark: #1f2937;
+  --mu-muted: #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fef8f6;
+  color: #1f2937;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Plus Jakarta Sans", "DM Sans", sans-serif;
+}
+
+[lang="ar"], [dir="rtl"] {
+  font-family: "Noto Sans Arabic", "IBM Plex Sans Arabic", sans-serif;
+}
+
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-content:focus {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1.5rem;
+  background: #8c4f6b;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  z-index: 9999;
+  text-decoration: none;
+}
