@@ -40,3 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .claude/settings.local.json
+
+# AI tooling and internal working documents
+CLAUDE.md
+AGENTS.md
+.claude/
+docs/superpowers/
+client-report.*
